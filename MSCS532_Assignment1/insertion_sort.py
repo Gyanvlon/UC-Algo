@@ -1,8 +1,27 @@
 def insertion_sort_decreasing(arr):
-  
+    """
+    Sorts an array in monotonically decreasing order using Insertion Sort.
+    
+    Algorithm:
+    - Iterate through the array starting from the second element (index 1)
+    - For each element (key), compare it with elements before it
+    - Move elements smaller than key one position to the right
+    - Insert key at its correct position
+    
+    Time Complexity: O(n^2) in worst case, O(n) in best case
+    Space Complexity: O(1) - sorts in place
+    
+    Args:
+        arr: List of comparable elements to be sorted
+    
+    Returns:
+        The sorted array in decreasing order
+    """
     for j in range(1, len(arr)):
         key = arr[j]
+        # Insert arr[j] into the sorted sequence arr[0..j-1]
         i = j - 1
+        # Move elements smaller than key one position ahead
         while i >= 0 and arr[i] < key:
             arr[i + 1] = arr[i]
             i = i - 1
@@ -11,6 +30,11 @@ def insertion_sort_decreasing(arr):
 
 
 def test_insertion_sort():
+    """
+    Test the insertion sort implementation with various test cases.
+    """
+    print("Testing Insertion Sort (Decreasing Order)")
+    print("=" * 50)
     
     # Test case 1: Regular array
     test1 = [5, 2, 4, 6, 1, 3]
