@@ -71,8 +71,3 @@ Output is printed as CSV-formatted rows:
 4. baseline and optimized delete time
 5. calculated speedup factors
 
-## Deliverable 3 Report Artifacts
-
-1. `deliverable3_report.md` contains a complete report draft aligned to the rubric.
-2. `deliverable3_requirements_checklist.md` maps each requirement to concrete code/tests/artifacts.
-
