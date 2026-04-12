@@ -1,0 +1,51 @@
+﻿python.exe : test_add_search_and_remove 
+(test_data_structures.InvertedIndexTests.test_add_search_and_remove) ... ok
+At line:1 char:1
++ & "d:/Edu/UC/Algo/Search Engine/Phase4 Delivery4/.venv/Scripts/python ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_add_search..._remove) ... ok 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+test_index_stats_and_version_progress (test_data_structures.InvertedIndexTests.
+test_index_stats_and_version_progress) ... ok
+test_invalid_document_inputs_raise 
+(test_data_structures.InvertedIndexTests.test_invalid_document_inputs_raise) 
+... ok
+test_invalid_k_raises 
+(test_data_structures.TopKHeapTests.test_invalid_k_raises) ... ok
+test_maintains_highest_k_scores 
+(test_data_structures.TopKHeapTests.test_maintains_highest_k_scores) ... ok
+test_delete_removes_only_target_word 
+(test_data_structures.TrieTests.test_delete_removes_only_target_word) ... ok
+test_insert_contains_and_prefix 
+(test_data_structures.TrieTests.test_insert_contains_and_prefix) ... ok
+test_index_and_query_large_dataset 
+(test_phase3_scaling.Phase3ScalingTests.test_index_and_query_large_dataset) 
+... ok
+test_bm25_ranking_is_supported 
+(test_search_engine.SearchEngineTests.test_bm25_ranking_is_supported) ... ok
+test_empty_query_returns_no_results 
+(test_search_engine.SearchEngineTests.test_empty_query_returns_no_results) ... 
+ok
+test_invalid_inputs_raise_value_error 
+(test_search_engine.SearchEngineTests.test_invalid_inputs_raise_value_error) 
+... ok
+test_remove_document_updates_search_and_suggestions (test_search_engine.SearchE
+ngineTests.test_remove_document_updates_search_and_suggestions) ... ok
+test_replace_document_updates_vocabulary_incrementally (test_search_engine.Sear
+chEngineTests.test_replace_document_updates_vocabulary_incrementally) ... ok
+test_search_and_mode_returns_intersection (test_search_engine.SearchEngineTests
+.test_search_and_mode_returns_intersection) ... ok
+test_search_or_mode_returns_union 
+(test_search_engine.SearchEngineTests.test_search_or_mode_returns_union) ... ok
+test_suggestions_are_prefix_filtered 
+(test_search_engine.SearchEngineTests.test_suggestions_are_prefix_filtered) 
+... ok
+test_top_k_limits_results 
+(test_search_engine.SearchEngineTests.test_top_k_limits_results) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.046s
+
+OK
